@@ -13,14 +13,16 @@ li {
 
 
 .profile{
-	width: 400px;
+	width: 350px;
 	height: 200px;
-	padding-left: 50px;
+	/*padding-left: 50px;*/
+	border-radius: 60% 0%;
 }
 .bcontainer p{
 	width: 50%;
 	float: left;
 	text-align: left;
+	padding-top: 60px;
 	padding-left: 20px;
 	font-weight: bold;
 	opacity: 0.8;
