@@ -18,7 +18,7 @@ h1{
 	height: 200px;
 	padding-left: 50px;
 }
-p{
+.bcontainer p{
 	width: 50%;
 	float: left;
 	border: solid 1px red;
@@ -83,7 +83,8 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 .img{
 	width: 300px;
 	height: 150px;
-	padding-right: 50px;
+	padding-right: 5px;
+	
 	
 	
 	
@@ -92,18 +93,26 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 	width: 33.3%;
 	text-align: left;
 	
+
+}
+.wrapper p{
+	border: 1px solid red;
+	margin-left: 20px;
 }
 .col{
 	float: left;
-	padding-right: 2em;
-	padding-left: 2em;
+	/*padding-right: 0.5em;
+	padding-left: 0.5em;*/
+	text-align: center;
 	
 }
 body{
 	background-repeat: no-repeat;
 	font-family: 'Lucida Sans' , Arial;
 }
-
+.bcontainer p{
+	width: 50%;
+}
 /*CLEARFIX*/
 
 .clearfix::after {
