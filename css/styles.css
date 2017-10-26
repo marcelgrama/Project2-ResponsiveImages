@@ -81,8 +81,8 @@ width: 100%
 .name{
 margin-left: 100px; 
 color: rgba(0,0,0,0.6);
-text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
-                 0px -5px 35px rgba(255,255,255,0.3);
+text-shadow: 5px 8px 6px rgba(0,0,0,0.3),
+                 10px -10px 35px rgba(255,255,255,0.3);
 
 }
 .main-nav li{
@@ -197,6 +197,10 @@ body{
 	font-weight: bolder;
 	padding-right: 20px;
 }
+.footernav li a:hover{
+  color: black;
+}
+
 .footername, .footernav li{
 	display: inline-block;
 	color: #FFF8DC;
