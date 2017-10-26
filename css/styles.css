@@ -41,9 +41,11 @@ width: 100%
 }
 
 .portfolio{
-	padding-top: 200px;
+	padding-top: 20px;
 	font-size: 2.5em;
 	text-align: center;
+	margin-bottom: 50px;
+	clear: both;
 }
 .container{
   width: 90%;
@@ -51,10 +53,10 @@ width: 100%
   max-width: 960px;
   text-align: left;
   background: #FFF8DC; /* For browsers that do not support gradients */
-  background: -webkit-radial-gradient(bottom,rgba(235, 243, 144, 0),rgba(235, 243, 144,1)); /*Safari 5.1-6*/
-  background: -o-radial-gradient(bottom,rgba(235, 243, 144, 0),rgba(235, 243, 144,1)); /*Opera 11.1-12*/
-  background: -moz-radial-gradient(bottom,rgba(235, 243, 144, 0),rgba(235, 243, 144,1)); /*Fx 3.6-15*/
-  background: radial-gradient(to bottom, rgba(235, 243, 144, 0),rgba(235, 243, 144,1)); /*Standard*/
+  background: -webkit-linear-gradient(top,rgba(235, 243, 144, 0),rgba(235, 243, 144,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(top,rgba(235, 243, 144, 0),rgba(235, 243, 144,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(top,rgba(235, 243, 144, 0),rgba(235, 243, 144,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to top, rgba(235, 243, 144, 0),rgba(235, 243, 144,1)); /*Standard*/
  opacity: 0.92;
  
 }
@@ -67,14 +69,14 @@ width: 100%
 	background-image: radial-gradient(circle at top right,#FFF8DC 0%, #F0E68C 55%, #8B4513 100%);
 	opacity: 0.9;
 	z-index: 1000;
-	margin-bottom: 100px;
+	/*margin-bottom: 100px;*/
 
 
 }
 .bcontainer{
 	width: 100%;
 	display: block;
-	padding-top: 50px;
+	padding-top: 0px;
 }
 .name{
 margin-left: 100px; 
@@ -107,6 +109,7 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 	align-content: left;
 	transition:all .5s;
 	opacity: 1;
+	border-radius: 30px 0px 0px 30px;
 	
 }
 .img:hover{
@@ -136,13 +139,71 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 }
 body{
 	padding-top: 79px;
-	background-image: url(../images/cos.jpg);
+	background-image: url(../images/cos.jpg) ;
 	background-repeat: no-repeat;
+	background-color: black;
+
+
 	/*font-family: 'Lucida Sans' , Arial;*/
 
 }
 .bcontainer p{
 	width: 50%;
+}
+
+/*FOOTER STYLE*/
+.fcontainer{
+	padding-top: 0px;
+	
+}
+#contact{
+	max-width: 500px;
+}
+.footer ul{
+	max-width: 500px;
+}
+.footer p{
+	max-width: 500px;
+}
+.footer strong{
+	color:black;
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+.footer{
+	clear: both;
+	text-align: center;
+	/*max-width: 500px;*/
+	margin-left: 25%;
+	font-size: 15px;
+	font-weight: normal;
+	padding-top: 0px;
+	color: #FFF8DC;
+
+}
+.footername{
+	width: 30%;
+	color: #FFF8DC;
+	
+	
+}
+.footernav{
+	float: right;
+	padding-top: 18px;
+	
+}
+.footernav li{
+	font-weight: bolder;
+	padding-right: 20px;
+}
+.footername, .footernav li{
+	display: inline-block;
+	color: #FFF8DC;
+}
+.footername a, .footernav li a{
+	
+	color: #FFF8DC;
 }
 /*CLEARFIX*/
 
