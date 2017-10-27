@@ -265,10 +265,14 @@ text-shadow: 5px 8px 6px rgba(0,0,0,0.3),
 	.wrapper p{
 		
 	}
+	.img{
+		width: 100%;
+		padding-right: 0px;
+	}
 
 
 }
-@media(max-width: 757px)
+@media(max-width: 767px)
 {
 	body{
 		padding-top: 162px;
